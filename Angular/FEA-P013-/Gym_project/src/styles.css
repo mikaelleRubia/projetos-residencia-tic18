@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --dark-grey: #333333;
+  --light-grey: #808080;
+  --light-text: #e5e5e5;
+  --medium-text: #939393;
+  --yellow: #FFB612;
+  --red: #dc0a17;
+  --red-delete: #cc5059;
+  --red-sair: #f26c3b;
+  --green: #2FC022;
+}
+
+* {
+  font-family: 'Gotham';
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('assets/fonts/Gotham/gotham-light.woff2') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('assets/fonts/Gotham/gotham-book.woff2') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('assets/fonts/Gotham/gotham-bold.woff2') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+  @font-face {
+  font-family: 'Gotham';
+  src: url('assets/fonts/Gotham/gotham-black.woff2') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+.p-toast {
+
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.p-toast .p-toast-message {
+  color: #333;
+  padding: 16px;
+  font-size: 14px;
+}
+
+.p-toast .p-toast-message .p-toast-summary {
+  font-weight: bold;
+  color: #555;
+}
+
+.p-toast .p-toast-message .p-toast-detail {
+  color: #777;
+}
+
+.p-toast-icon-close {
+  color: #999;
+}

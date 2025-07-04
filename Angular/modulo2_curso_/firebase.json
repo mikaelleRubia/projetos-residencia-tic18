@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/modulo2_curso_/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

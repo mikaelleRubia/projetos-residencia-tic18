@@ -1,0 +1,14 @@
+# PI - PROGRAMAÇÃO IMPERATIVA
+
+Essa lista de exercício será para adquirir conhecimento de Gib e GibHub.
+-> trabalhar com branches
+-> criar arquivos .gitignore 
+-> comando basico:
+    ° git init
+    ° git add . 
+    ° git commit -m ""
+    ° git status
+    ° gits stash   
+    ° git revert 
+    ° git pull
+    ° git push

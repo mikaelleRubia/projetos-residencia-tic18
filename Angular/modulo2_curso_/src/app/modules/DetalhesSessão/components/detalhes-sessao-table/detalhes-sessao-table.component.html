@@ -1,0 +1,18 @@
+<div class="grid">
+  <div class="col-12">
+    <p-card
+      header="Detalhe da Sessao"
+      styleClass="shadow-3 m-5 text-indigo-800"
+    >
+
+      <p>Data da atividade:  {{Detalhes[0].data_atividade}}</p>
+      <p>Atividade: {{Detalhes[0].atividade}}</p>
+      <p>Descriçao: {{Detalhes[0].descricao}}</p>
+
+      <p>Brincos dos Animais: </p>
+
+      <p *ngFor=" let brinco of Detalhes[0].animais">{{brinco}}</p>
+      
+    </p-card>
+  </div>
+</div>

@@ -1,0 +1,113 @@
+.app-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+}
+header{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 100vw;
+  gap:32px;
+}
+
+header .logo-container{
+  background: black;
+  padding:24px;
+  width: 100%;
+
+  display:flex;
+  align-items: flex-end;
+  justify-content:space-between
+}
+
+header .text-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:flex-start;
+  max-width: 80%;
+  margin:0 auto;
+}
+
+header .text-container h1{
+  font-size: 34px;
+  color: var(--dark-grey)
+}
+
+header .text-container p{
+  color: var(--light-grey)
+}
+
+header .text-container .heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  margin-bottom: 24px;
+  gap:12px;
+
+}
+
+
+header .text-container .heading .heading-border {
+  height: 10px;
+  width: 100px;
+  background-color: var(--dark-grey);
+}
+
+header .logo-container img{
+height: 200px;
+
+}
+
+.logo-container .btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.logo-container .btn-wrapper .btn {
+  font-size: 15px;
+  border-radius: 4px;
+  color: var(--dark-grey);
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 14px;
+  width: 30%;
+  border: none;
+  cursor: pointer;
+
+
+}
+
+.logo-container .btn-wrapper .btn-primary-sair
+{
+  background-color: var( --red-sair);
+
+}
+
+.logo-container .btn-wrapper .btn-primary,
+.logo-container .btn-wrapper .btn-third,
+.logo-container .btn-wrapper .btn-secondary
+{
+  background-color: var(--yellow);
+
+}
+
+
+@media (min-width: 768px) {
+  .logo-container .btn-wrapper{
+    flex-direction: row;
+    width: 25%;
+  }
+
+}

@@ -1,0 +1,22 @@
+<script>
+    var nota ,fic ,maior=0 ,maior2=0,fic2
+    for(i=1;i<=3;i++){
+        fic=Number(prompt("digite numero de inscrição do aluno com 3 digitos"));
+        nota=Number(prompt("digite sua nota"));
+        fic2=Number(prompt("digite numero de inscrição do aluno com 3 digitos"));
+        nota2=Number(prompt("digite sua nota"));
+        if(maior<nota){
+           maior2=maior
+            maior=nota
+        }else if(nota>maior2){
+            maior2=nota
+        } if(maior<nota2){
+           maior2=nota
+            maior=nota2
+        }else if(nota2>maior2){
+            maior2=nota2
+        
+        }
+    }document.write(fic + ":Nª da ficha:"+ "<br>"+ maior + "maior nota"+"<br>"+ fic2 + "Nª da ficha:" + "<br>"+ maior2 + "maior nota")
+    
+</script>
